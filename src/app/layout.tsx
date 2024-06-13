@@ -21,8 +21,23 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <WalletContextProvider>
-          <div className="h-screen bg-red-100">
-            <Header /> {children}
+          <div className="h-screen bg-red-100 p-4">
+            <Header />
+            <div className="flex justify-between">
+              <h1 className="text-2xl font-mono text-red-700 text-center p-3">
+                Create a new account and get some devnet tokens and then play
+                around
+              </h1>
+              <a
+                className="items-center text-green-600 text-2xl"
+                href="https://solfaucet.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                SOL FAUCET
+              </a>
+            </div>
+            {children}
           </div>
         </WalletContextProvider>
       </body>
