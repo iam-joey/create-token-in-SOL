@@ -23,7 +23,7 @@ export default function RootLayout({
         <WalletContextProvider>
           <div className="h-screen bg-red-100 p-4">
             <Header />
-            <div className="flex justify-between">
+            <div className="flex justify-between m-2">
               <h1 className="text-2xl font-mono text-red-700 text-center p-3">
                 Create a new account and get some devnet tokens and then play
                 around
@@ -37,6 +37,9 @@ export default function RootLayout({
                 SOL FAUCET
               </a>
             </div>
+            <p className="text-2xl font-bold text-center  p-4 text-green-900">
+              connect with devnet only
+            </p>
             {children}
           </div>
         </WalletContextProvider>
