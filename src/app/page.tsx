@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="mb-8 space-y-5 text-center">
       <Toaster position="top-center" closeButton />
-      <h1 className="text-2xl font-bold">Step 1: create token Mint address</h1>
+      <h1 className="text-2xl font-bold">Step 1 create token Mint address</h1>
       <DashBoard
         tokenMintAdress={tokenMintAdress}
         setTokenMintAdress={setTokenMintAdress}
@@ -27,13 +27,13 @@ export default function Home() {
         tokenMintAdress={tokenMintAdress}
         setTokenMintAdress={setTokenMintAdress}
       />
-      <h1 className="text-2xl font-bold">Step 2 : Create token Account</h1>
+      <h1 className="text-2xl font-bold">Step 2 Create token Account</h1>
       <CreateAta
         tokenMintAdress={tokenMintAdress}
         ataAddress={ataAddress}
         setAtaAddress={setAtaAddress}
       />
-      <h1 className="text-2xl font-bold">Step 3 : Now let's mint Token</h1>
+      <h1 className="text-2xl font-bold">Step 3 Now lets mint Token</h1>
       <MintToken
         ataAddress={ataAddress}
         tokenMintAdress={tokenMintAdress}
