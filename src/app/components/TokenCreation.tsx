@@ -141,10 +141,10 @@ export default function TokenCreation({
   }, [connection, publicKey]);
 
   return (
-    <div className=" p-2 flex items-center justify-around">
+    <div className=" p-2 flex flex-wrap gap-4 items-center justify-around">
       <button
         onClick={createMintAddress}
-        className="rounded-sm bg-slate-300 p-2 w-64"
+        className="rounded-md bg-slate-300 p-2 w-64"
       >
         Create Token Mint Address
       </button>

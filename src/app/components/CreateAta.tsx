@@ -73,10 +73,10 @@ function CreateAta({ tokenMintAdress, ataAddress, setAtaAddress }: any) {
   };
 
   return (
-    <div className="p-2 flex items-center justify-around">
+    <div className="p-2 flex flex-wrap gap-4 items-center justify-around">
       <button
         onClick={generateAtaAccount}
-        className="rounded-sm bg-slate-300 p-2 w-64"
+        className="rounded-md bg-slate-300 p-2 w-64"
       >
         Create ATA ADDRESS
       </button>

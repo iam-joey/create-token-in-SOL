@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="mb-8 space-y-5 text-center">
+    <div className="mb-8 space-y-5 text-center ">
       <Toaster position="top-center" closeButton />
       <h1 className="text-2xl font-bold">Step 1 create token Mint address</h1>
       <DashBoard
