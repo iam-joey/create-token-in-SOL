@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <WalletContextProvider>
-          <div className="h-screen bg-red-100 p-4 ">
+          <div className="min-h-screen bg-red-100 p-4 ">
             <div className="max-w-[42rem] mx-auto">
               <Header />
               <div className="flex flex-col gap-4 flex-wrap items-center justify-center m-2">
