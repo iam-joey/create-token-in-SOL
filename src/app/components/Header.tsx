@@ -10,9 +10,9 @@ const WalletMultiButtonFix = dynamic(
 
 function Header() {
   return (
-    <div className="flex justify-between p-5 items-center ">
+    <div className="flex flex-wrap gap-8 justify-center items-center ">
       <div className="">
-        <span className="font-bold">Create Tokens</span>
+        <span className="font-bold text-xl">Create Tokens</span>
       </div>
       <div>
         <WalletMultiButtonFix />

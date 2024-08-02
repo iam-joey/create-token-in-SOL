@@ -74,8 +74,8 @@ function MintToken({ ataAddress, tokenMintAdress, setLoad }: any) {
     setLoad(true);
   };
   return (
-    <div className=" p-2 flex items-center justify-around">
-      <button onClick={mintToken} className="rounded-sm bg-slate-300 p-2 w-64">
+    <div className=" p-2 flex flex-wrap gap-4 items-center justify-around">
+      <button onClick={mintToken} className="rounded-md bg-slate-300 p-2 w-64">
         Mint Token 🥳
       </button>
       <input
